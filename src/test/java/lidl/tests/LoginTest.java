@@ -36,7 +36,7 @@ OS: Windows 10
 Browser: Google Chrome 122.0.6261.129 */
 
     @Test
-    public void testMethod1() throws InterruptedException {
+    public void testMethod1() {
         WebDriver driver = WebDriverController.createDriverInstance();
         driver.get(TestData.websiteAddress);
 
