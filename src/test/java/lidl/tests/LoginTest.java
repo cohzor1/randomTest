@@ -26,6 +26,5 @@ public class LoginTest {
         loginPageObjects.assertInvalidEmailError();
         driver.quit();
 
-
     }
 }
