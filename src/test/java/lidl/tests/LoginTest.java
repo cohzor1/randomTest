@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 
 public class LoginTest {
 
+    /*Login with an invalid email test case*/
+
     @Test
     public void testMethod1() throws InterruptedException {
         WebDriver driver = WebDriverController.createDriverInstance();
